@@ -1,0 +1,3 @@
+C:/Users/aluno/Desktop/revisao-logica/ex01/cmake-build-debug/CMakeFiles/ex01.dir
+C:/Users/aluno/Desktop/revisao-logica/ex01/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/aluno/Desktop/revisao-logica/ex01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
