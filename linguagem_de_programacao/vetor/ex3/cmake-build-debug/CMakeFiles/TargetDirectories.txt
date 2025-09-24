@@ -1,0 +1,3 @@
+C:/Users/user/segundo_semestre_fatec/linguagem_de_programacao/vetor/ex3/cmake-build-debug/CMakeFiles/ex3.dir
+C:/Users/user/segundo_semestre_fatec/linguagem_de_programacao/vetor/ex3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/user/segundo_semestre_fatec/linguagem_de_programacao/vetor/ex3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
