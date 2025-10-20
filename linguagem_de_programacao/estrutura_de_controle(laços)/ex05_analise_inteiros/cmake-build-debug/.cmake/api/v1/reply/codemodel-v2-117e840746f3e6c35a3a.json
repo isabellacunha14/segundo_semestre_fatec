@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ex05_analise_inteiros",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ex05_analise_inteiros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex05_analise_inteiros-Debug-e15dc8c2253cd3f6efcc.json",
+					"name" : "ex05_analise_inteiros",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/user/segundo_semestre_fatec/linguagem_de_programacao/estrutura_de_controle(la\u00e7os)/ex05_analise_inteiros/cmake-build-debug",
+		"source" : "C:/Users/user/segundo_semestre_fatec/linguagem_de_programacao/estrutura_de_controle(la\u00e7os)/ex05_analise_inteiros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
