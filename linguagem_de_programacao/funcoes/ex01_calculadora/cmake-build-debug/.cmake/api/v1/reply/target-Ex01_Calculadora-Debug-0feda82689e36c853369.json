@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ex01_calculadora.exe"
+			"path" : "Ex01_Calculadora.exe"
 		},
 		{
-			"path" : "ex01_calculadora.pdb"
+			"path" : "Ex01_Calculadora.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "ex01_calculadora::@6890427a1f51a3e7e1df",
+	"id" : "Ex01_Calculadora::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "ex01_calculadora",
-	"nameOnDisk" : "ex01_calculadora.exe",
+	"name" : "Ex01_Calculadora",
+	"nameOnDisk" : "Ex01_Calculadora.exe",
 	"paths" : 
 	{
 		"build" : ".",

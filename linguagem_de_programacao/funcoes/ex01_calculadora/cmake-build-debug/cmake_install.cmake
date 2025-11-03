@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/user/segundo_semestre_fatec/funcoes/ex01_calculadora
+# Install script for directory: C:/Users/user/segundo_semestre_fatec/linguagem_de_programacao/funcoes/Ex01_Calculadora
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ex01_calculadora")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Ex01_Calculadora")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/user/segundo_semestre_fatec/funcoes/ex01_calculadora/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/user/segundo_semestre_fatec/linguagem_de_programacao/funcoes/Ex01_Calculadora/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

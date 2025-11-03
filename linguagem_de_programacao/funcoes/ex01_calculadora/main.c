@@ -39,11 +39,11 @@ int main(void) {
         printf("Digite o segundo numero: ");
         scanf("%d", &b);
 
-        printf("\nEscolha a operação:\n");
+        printf("\nEscolha a operacao:\n");
         printf("1 - Soma\n");
-        printf("2 - Subtração\n");
-        printf("3 - Multiplicação\n");
-        printf("4 - Divisão\n");
+        printf("2 - Subtracao\n");
+        printf("3 - Multiplicacao\n");
+        printf("4 - Divisao\n");
         printf("0 - Sair\n");
         scanf("%d", &escolha);
 

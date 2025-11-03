@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/user/segundo_semestre_fatec/funcoes/ex01_calculadora/cmake-build-debug"
+			"value" : "c:/Users/user/segundo_semestre_fatec/linguagem_de_programacao/funcoes/Ex04_Matriz_Transposta/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/user/segundo_semestre_fatec/funcoes/ex01_calculadora/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/user/segundo_semestre_fatec/linguagem_de_programacao/funcoes/Ex04_Matriz_Transposta/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/user/segundo_semestre_fatec/funcoes/ex01_calculadora"
+			"value" : "C:/Users/user/segundo_semestre_fatec/linguagem_de_programacao/funcoes/Ex04_Matriz_Transposta"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/ex01_calculadora"
+			"value" : "C:/Program Files (x86)/Ex04_Matriz_Transposta"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -731,7 +731,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "ex01_calculadora"
+			"value" : "Ex04_Matriz_Transposta"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1126,19 +1126,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
-		},
-		{
-			"name" : "ex01_calculadora_BINARY_DIR",
+			"name" : "Ex04_Matriz_Transposta_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1147,10 +1135,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/user/segundo_semestre_fatec/funcoes/ex01_calculadora/cmake-build-debug"
+			"value" : "C:/Users/user/segundo_semestre_fatec/linguagem_de_programacao/funcoes/Ex04_Matriz_Transposta/cmake-build-debug"
 		},
 		{
-			"name" : "ex01_calculadora_IS_TOP_LEVEL",
+			"name" : "Ex04_Matriz_Transposta_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1162,7 +1150,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "ex01_calculadora_SOURCE_DIR",
+			"name" : "Ex04_Matriz_Transposta_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1171,7 +1159,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/user/segundo_semestre_fatec/funcoes/ex01_calculadora"
+			"value" : "C:/Users/user/segundo_semestre_fatec/linguagem_de_programacao/funcoes/Ex04_Matriz_Transposta"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		}
 	],
 	"kind" : "cache",
