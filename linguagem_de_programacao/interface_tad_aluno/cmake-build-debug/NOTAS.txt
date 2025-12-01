@@ -1,0 +1,4 @@
+Marta;10;8
+Pedro;10;9
+Oscar;7;5
+Pedro;6;6

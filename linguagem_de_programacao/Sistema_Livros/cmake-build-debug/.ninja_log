@@ -1,0 +1,7 @@
+# ninja log v6
+7	657	7863107949559789	build.ninja	3230bd662c094e61
+303	627	7863107386080950	CMakeFiles/Sistema_Livros.dir/main.c.obj	cabe479a88643c55
+313	655	7863107386189291	CMakeFiles/Sistema_Livros.dir/livro.c.obj	7d623d0071d5f281
+4	238	7863108594727256	CMakeFiles/Sistema_Livros.dir/main.c.obj	cabe479a88643c55
+11	246	7863108594832907	CMakeFiles/Sistema_Livros.dir/livro.c.obj	7d623d0071d5f281
+246	445	7863108597178904	Sistema_Livros.exe	acc9d4b60a1dda5c

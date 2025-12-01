@@ -1,0 +1,6 @@
+# ninja log v6
+7	594	7863099776954220	CMakeFiles/ProjetoAlunos.dir/main.c.obj	68844ef0f0eebfaf
+453	759	7863097747939642	ProjetoAlunos.exe	ce4228880098e443
+3	446	7863100235285087	build.ninja	1fc7e5530267348d
+251	389	7863100239473396	CMakeFiles/ProjetoAlunos.dir/aluno.c.obj	c53f435a52638a7c
+390	545	7863100240863564	ProjetoAlunos.exe	dae7c8bdb61badd2

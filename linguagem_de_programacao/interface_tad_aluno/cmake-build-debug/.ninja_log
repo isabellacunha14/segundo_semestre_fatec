@@ -1,0 +1,9 @@
+# ninja log v6
+15	290	7863134359028044	CMakeFiles/interface_tad_aluno.dir/main.c.obj	c1b02577b17f1f76
+294	967	7863134361823150	interface_tad_aluno.exe	153d552642630c66
+92	828	7863137247827376	build.ninja	91b57e7040103b1e
+31	294	7863134359191962	CMakeFiles/interface_tad_aluno.dir/aluno.c.obj	5ca4c09d26a564ed
+12	28	7863134346138912	clean	b4156cfd904aa1e6
+151	701	7863137315954517	CMakeFiles/interface_tad_aluno.dir/aluno.c.obj	5ca4c09d26a564ed
+81	711	7863137315220975	CMakeFiles/interface_tad_aluno.dir/main.c.obj	c1b02577b17f1f76
+711	958	7863137321523834	interface_tad_aluno.exe	153d552642630c66
