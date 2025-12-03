@@ -1,13 +1,21 @@
+/*
+Atividade Final de Banco de dados.
+Professor Sandro Roberto Armelin
+
+Nome: Isabella Gonçalves da Cunha
+Nome: João Victor Carnevalli da Silva
+*/
+
 -- INSTRUÇÃO 1 
 
 CREATE DATABASE BD_TrabalhoFinal
 
 USE BD_TrabalhoFinal
 
-CREATE TABLE ALUNOS (
+CREATE TABLE ALUNOS(
 	RA int NOT NULL IDENTITY,
 	NOME varchar(100),
-	CIDADE varchar(40)
+	CIDADE varchar(40),
 	CONSTRAINT PK_ALUNOS PRIMARY KEY (RA)
 );
 
@@ -372,3 +380,88 @@ WHERE
 	AND H.ano = '2019';
 
 select *from HISTORICO
+
+-- INSTRUCAO 23
+
+UPDATE H
+SET H.nota =
+    CASE
+        WHEN H.nota BETWEEN 4.0 AND 5.0 THEN 4.0
+        WHEN H.nota > 5.0 AND H.nota < 9.5 THEN H.nota + 0.5
+        WHEN H.nota >= 9.5 THEN 10.0
+    END
+FROM HISTORICO H
+JOIN DISCIPLINA D ON D.codigodisciplina = H.codigodisciplina
+JOIN PROFESSOR P ON P.codigoprofessor = H.codigoprofessor
+WHERE D.disciplina = 'Banco de Dados'
+  AND H.ano = 2019
+  AND P.nome = 'Sandro Oliveira';
+
+  -- INSTRUCAO 24
+
+  SELECT 
+    A.nome AS aluno,
+    D.disciplina,
+    H.faltas,
+    H.nota,
+    CASE 
+        WHEN H.nota >= 7.0 THEN 'Aprovado'
+        ELSE 'Reprovado'
+    END AS situacao
+FROM HISTORICO H
+JOIN ALUNOS A ON A.RA = H.RA
+JOIN DISCIPLINA D ON D.codigodisciplina = H.codigodisciplina;
+
+-- INSTRUCAO 25
+
+SELECT 
+    D.disciplina,
+    AVG(H.nota) AS media_reprovados
+FROM HISTORICO H
+JOIN DISCIPLINA D 
+    ON D.codigodisciplina = H.codigodisciplina
+WHERE H.nota < 5.0
+GROUP BY D.disciplina;
+
+--INSTRUCAO 26
+UPDATE H
+SET H.nota = H.nota + 0.5
+FROM HISTORICO H
+JOIN DISCIPLINA D ON D.codigodisciplina = H.codigodisciplina
+WHERE D.disciplina = 'Banco de Dados';
+
+-- INSTRUCAO 27.A
+
+CREATE TABLE CIDADE (
+    nome VARCHAR(100)
+);
+
+INSERT INTO CIDADE (nome)
+SELECT DISTINCT cidade
+FROM ALUNOS;
+
+-- INSTRUCAO 27.B
+
+ALTER TABLE CIDADE
+ADD cod_cidade INT IDENTITY(1,1) PRIMARY KEY;
+
+-- INSTRUCAO 27.C
+
+ALTER TABLE ALUNOS
+ADD cod_cidade INT;
+
+-- INSTRUCAO 27.D
+
+UPDATE A
+SET A.cod_cidade = C.cod_cidade
+FROM ALUNOS A
+JOIN CIDADE C ON C.nome = A.cidade;
+
+ALTER TABLE ALUNOS
+ADD CONSTRAINT FK_ALUNOS_CIDADE
+FOREIGN KEY (cod_cidade) REFERENCES CIDADE(cod_cidade);
+
+-- INSTRUCAO 27.E
+
+ALTER TABLE ALUNOS
+DROP COLUMN cidade;
